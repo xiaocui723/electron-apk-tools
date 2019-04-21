@@ -27,7 +27,7 @@ npm start
 npm run package:mac
 ```
 
-app 签名：
+app 签名（[具体问题](https://github.com/electron/electron/issues/7476)）：
 
 ```bash
 codesign --deep --force --verbose --sign - ./out/Electron APK Tools-darwin-x64/Electron APK Tools.app
