@@ -26,7 +26,7 @@ function handleSectionTrigger (event) {
 }
 
 function activateDefaultSection () {
-  document.getElementById('button-windows').click()
+  document.getElementById("button-apksign").click();
 }
 
 function showMainContent () {
@@ -72,5 +72,6 @@ if (sectionId) {
   if (section) section.click()
 } else {
   activateDefaultSection()
-  displayAbout()
+  hideAllModals()
+  // displayAbout()
 }
